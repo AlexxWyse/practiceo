@@ -1,27 +1,6 @@
-div > h2 {
-    font-style: italic;
+img {
+    float: left;
 }
-h2 + p {
-    color: red;
-}
-ul.list > li {
-    list-style-type: none;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: grey;   
-}
-
-
-li > a:visited {
-    color: red;
-}
-li > a:link {
-    color: green;
-}
-li > a:hover {
-    color: pink;    
-}
-ul > li:first-child::first-letter {
-    font-size: 120%;
-    font-weight: bolder;
+.below {
+    clear:both;
 }
